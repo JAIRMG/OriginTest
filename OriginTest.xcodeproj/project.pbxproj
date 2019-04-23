@@ -49,6 +49,7 @@
 		A1477B98226EA91C0017FF39 /* OriginTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OriginTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1477B9C226EA91C0017FF39 /* OriginTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginTestUITests.swift; sourceTree = "<group>"; };
 		A1477B9E226EA91C0017FF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1477BAA226EAA520017FF39 /* OriginTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OriginTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		A1477B78226EA91A0017FF39 /* OriginTest */ = {
 			isa = PBXGroup;
 			children = (
+				A1477BAA226EAA520017FF39 /* OriginTest.entitlements */,
 				A1477B79226EA91A0017FF39 /* AppDelegate.swift */,
 				A1477B7B226EA91A0017FF39 /* ViewController.swift */,
 				A1477B7D226EA91A0017FF39 /* Main.storyboard */,
@@ -196,6 +198,11 @@
 				TargetAttributes = {
 					A1477B75226EA91A0017FF39 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					A1477B8C226EA91C0017FF39 = {
 						CreatedOnToolsVersion = 10.1;
@@ -436,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OriginTest/OriginTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQUE8QE5D8;
 				INFOPLIST_FILE = OriginTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +462,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OriginTest/OriginTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQUE8QE5D8;
 				INFOPLIST_FILE = OriginTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

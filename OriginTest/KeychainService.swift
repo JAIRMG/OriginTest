@@ -19,7 +19,8 @@ let kSecReturnDataValue = NSString(format: kSecReturnData)
 let kSecMatchLimitOneValue = NSString(format: kSecMatchLimitOne)
 
 //Access group
-let generalGroup = "com.JairMorenoGaspar.KeychainTest"
+//let generalGroup = "com.JairMorenoGaspar.KeychainTest"
+let generalGroup = "LQUE8QE5D8.com.JairMorenoGaspar.KeychainTest"
 let kSecGroup = NSString(format: kSecAttrAccessGroup) //
 
 public class KeychainService: NSObject {

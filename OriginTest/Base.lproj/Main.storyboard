@@ -29,14 +29,41 @@
                                     <action selector="launchMobileX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ns6-R1-57A"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="iZO-KJ-96n">
+                                <rect key="frame" x="50" y="228" width="314" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91g-bp-9hy">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="smt-Qk-pDZ">
+                                        <rect key="frame" x="0.0" y="63.5" width="314" height="86.5"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="113-Hb-Fbh"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="iZO-KJ-96n" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-150" id="4qn-Tc-qqG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iZO-KJ-96n" secondAttribute="trailing" constant="50" id="6Yy-mK-sr3"/>
+                            <constraint firstItem="iZO-KJ-96n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="7oB-Eh-Ssh"/>
                             <constraint firstItem="IS1-ba-BFL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Mft-SX-rgp"/>
                             <constraint firstItem="IS1-ba-BFL" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="NMs-Qr-djH"/>
+                            <constraint firstItem="iZO-KJ-96n" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gNe-rV-aw7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="updatedValue" destination="smt-Qk-pDZ" id="azX-Iv-JV1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

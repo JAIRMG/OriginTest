@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     let service = "myService"
     let account = "myAccount"
     
+    @IBOutlet weak var updatedValue: UITextField! 
     
+    var text = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,15 +26,26 @@ class ViewController: UIViewController {
     @IBAction func launchMobileX(_ sender: Any) {
         
         //Meter la info a keychain y luego al grupo para compartirla
+        //KeychainService.savePassword(service: service, account: account, data: "1234567")
         
+        text = updatedValue.text!
         
-        
-        KeychainService.savePassword(service: service, account: account, data: "12345")
+        KeychainService.updatePassword(service: service, account: account, data: text)
     
         
         
+        //retrieving from keychain
+        let pass = KeychainService.loadPassword(service: service, account: account)
+        print("Retrieve pass \(pass ?? "error pass")")
+        
+        guard let password = pass else {
+            print("no se pudo recuperar pass de keychain∫")
+            return
+            
+        }
+        
         let userDefaults = UserDefaults(suiteName: "group.com.mobilex")!
-        userDefaults.set("12345", forKey: "DynamicVector")
+        userDefaults.set(password, forKey: "DynamicVector")
         userDefaults.synchronize()
         
         

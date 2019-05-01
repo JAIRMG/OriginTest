@@ -15,7 +15,7 @@
 		A1477B87226EA91C0017FF39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1477B85226EA91C0017FF39 /* LaunchScreen.storyboard */; };
 		A1477B92226EA91C0017FF39 /* OriginTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1477B91226EA91C0017FF39 /* OriginTestTests.swift */; };
 		A1477B9D226EA91C0017FF39 /* OriginTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1477B9C226EA91C0017FF39 /* OriginTestUITests.swift */; };
-		DE1F09E32278DF710074C73D /* resume.json in Resources */ = {isa = PBXBuildFile; fileRef = DE1F09E22278DF710074C73D /* resume.json */; };
+		DE1F09E32278DF710074C73D /* summary.json in Resources */ = {isa = PBXBuildFile; fileRef = DE1F09E22278DF710074C73D /* summary.json */; };
 		DEC5DBEA2273A55B005309BA /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5DBE92273A55B005309BA /* KeychainService.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +52,7 @@
 		A1477B9C226EA91C0017FF39 /* OriginTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginTestUITests.swift; sourceTree = "<group>"; };
 		A1477B9E226EA91C0017FF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1477BAA226EAA520017FF39 /* OriginTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OriginTest.entitlements; sourceTree = "<group>"; };
-		DE1F09E22278DF710074C73D /* resume.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resume.json; sourceTree = "<group>"; };
+		DE1F09E22278DF710074C73D /* summary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = summary.json; sourceTree = "<group>"; };
 		DEC5DBE92273A55B005309BA /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,7 +108,7 @@
 				A1477B79226EA91A0017FF39 /* AppDelegate.swift */,
 				A1477B7B226EA91A0017FF39 /* ViewController.swift */,
 				A1477B7D226EA91A0017FF39 /* Main.storyboard */,
-				DE1F09E22278DF710074C73D /* resume.json */,
+				DE1F09E22278DF710074C73D /* summary.json */,
 				A1477B83226EA91C0017FF39 /* Assets.xcassets */,
 				A1477B85226EA91C0017FF39 /* LaunchScreen.storyboard */,
 				A1477B88226EA91C0017FF39 /* Info.plist */,
@@ -248,7 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1F09E32278DF710074C73D /* resume.json in Resources */,
+				DE1F09E32278DF710074C73D /* summary.json in Resources */,
 				A1477B87226EA91C0017FF39 /* LaunchScreen.storyboard in Resources */,
 				A1477B84226EA91C0017FF39 /* Assets.xcassets in Resources */,
 				A1477B7F226EA91A0017FF39 /* Main.storyboard in Resources */,

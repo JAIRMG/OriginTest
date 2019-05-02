@@ -1,0 +1,9 @@
+{
+    "advancedKnowledge": {
+        "advanced":["Swift","Java"]
+    },
+    
+    "basicKnowledge": {
+        "basic":["C++", "mySQL", "html", "Microsoft Office", "Linux", "LATEX"]
+    }
+}

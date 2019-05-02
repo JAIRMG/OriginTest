@@ -3,24 +3,28 @@
         {
             "date": "Feb 2018 - Mar 2019",
             "role": "iOS Developer",
+            "image": "https://raw.githubusercontent.com/JAIRMG/OriginTest/master/OriginTest/hitss.jpeg",
             "company": "Global Hitss",
             "detailWork": "Developing an internal apps using Swift, GIT, Cocoa Frameworks and CoreData. Fixing  bugs in Android app"
         },
         {
             "date": "Nov 2018 - Current",
             "role": "iOS Developer",
+            "image": "https://raw.githubusercontent.com/JAIRMG/OriginTest/master/OriginTest/free.png",
             "company": "Freelancer",
             "detailWork": "Fixing bugs and submitting to AppStore Jibaro app. Technologies: GIT, Swift language, Crashlytics, Rest services, Firebase and Cocoa Frameworks"
         },
         {
             "date": "Oct 2017 - Feb 2018",
             "role": "iOS Developer",
+            "image": "https://raw.githubusercontent.com/JAIRMG/OriginTest/master/OriginTest/bbva.png",
             "company": "BBVA Bancomer",
             "detailWork": "Repaired and optimized an existing app called BBVA Plan using GIT, Swift language, CoreData, Crashlytics, Rest services and Cocoa Frameworks"
         },
         {
             "date": "Mar 2017 - Oct 2017",
             "role": "Intern in iOS development team",
+            "image": "https://raw.githubusercontent.com/JAIRMG/OriginTest/master/OriginTest/claro.jpg",
             "company": "AMCO - Claro Video",
             "detailWork": "Fixing bugs of ClaroVideo app using GIT, Crashlytics, Firebase, Swift, Cocoa Frameworks, Jira, Charles Proxy and the agile framework SCRUM"
         }

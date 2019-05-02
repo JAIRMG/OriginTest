@@ -19,6 +19,9 @@
 		A1477B9D226EA91C0017FF39 /* OriginTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1477B9C226EA91C0017FF39 /* OriginTestUITests.swift */; };
 		A1C53B3F22796C2300991E71 /* work.json in Resources */ = {isa = PBXBuildFile; fileRef = A1C53B3E22796C2300991E71 /* work.json */; };
 		DE1F09E32278DF710074C73D /* summary.json in Resources */ = {isa = PBXBuildFile; fileRef = DE1F09E22278DF710074C73D /* summary.json */; };
+		DE43B357227B7D0000D0B380 /* bbva.png in Resources */ = {isa = PBXBuildFile; fileRef = DE43B354227B7CFF00D0B380 /* bbva.png */; };
+		DE43B358227B7D0000D0B380 /* claro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE43B355227B7CFF00D0B380 /* claro.jpg */; };
+		DE43B359227B7D0000D0B380 /* hitss.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE43B356227B7CFF00D0B380 /* hitss.jpeg */; };
 		DEC5DBEA2273A55B005309BA /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC5DBE92273A55B005309BA /* KeychainService.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		A1477BAA226EAA520017FF39 /* OriginTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OriginTest.entitlements; sourceTree = "<group>"; };
 		A1C53B3E22796C2300991E71 /* work.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = work.json; sourceTree = "<group>"; };
 		DE1F09E22278DF710074C73D /* summary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = summary.json; sourceTree = "<group>"; };
+		DE43B354227B7CFF00D0B380 /* bbva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbva.png; sourceTree = "<group>"; };
+		DE43B355227B7CFF00D0B380 /* claro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = claro.jpg; sourceTree = "<group>"; };
+		DE43B356227B7CFF00D0B380 /* hitss.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hitss.jpeg; sourceTree = "<group>"; };
 		DEC5DBE92273A55B005309BA /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +121,9 @@
 				A1477B7B226EA91A0017FF39 /* ViewController.swift */,
 				A1477B7D226EA91A0017FF39 /* Main.storyboard */,
 				DE1F09E22278DF710074C73D /* summary.json */,
+				DE43B354227B7CFF00D0B380 /* bbva.png */,
+				DE43B355227B7CFF00D0B380 /* claro.jpg */,
+				DE43B356227B7CFF00D0B380 /* hitss.jpeg */,
 				A1C53B3E22796C2300991E71 /* work.json */,
 				A1477B83226EA91C0017FF39 /* Assets.xcassets */,
 				A1477B85226EA91C0017FF39 /* LaunchScreen.storyboard */,
@@ -257,12 +266,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE43B358227B7D0000D0B380 /* claro.jpg in Resources */,
+				DE43B359227B7D0000D0B380 /* hitss.jpeg in Resources */,
 				DE1F09E32278DF710074C73D /* summary.json in Resources */,
 				A1289A21227AB09300FD6148 /* contactInfo.json in Resources */,
 				A1477B87226EA91C0017FF39 /* LaunchScreen.storyboard in Resources */,
 				A1C53B3F22796C2300991E71 /* work.json in Resources */,
 				A1289A18227AA64200FD6148 /* skills.json in Resources */,
 				A1477B84226EA91C0017FF39 /* Assets.xcassets in Resources */,
+				DE43B357227B7D0000D0B380 /* bbva.png in Resources */,
 				A1477B7F226EA91A0017FF39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

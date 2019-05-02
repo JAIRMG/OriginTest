@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A1289A18227AA64200FD6148 /* skills.json in Resources */ = {isa = PBXBuildFile; fileRef = A1289A17227AA64200FD6148 /* skills.json */; };
+		A1289A21227AB09300FD6148 /* contactInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = A1289A20227AB09300FD6148 /* contactInfo.json */; };
 		A1477B7A226EA91A0017FF39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1477B79226EA91A0017FF39 /* AppDelegate.swift */; };
 		A1477B7C226EA91A0017FF39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1477B7B226EA91A0017FF39 /* ViewController.swift */; };
 		A1477B7F226EA91A0017FF39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1477B7D226EA91A0017FF39 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		A1289A17227AA64200FD6148 /* skills.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = skills.json; sourceTree = "<group>"; };
+		A1289A20227AB09300FD6148 /* contactInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contactInfo.json; sourceTree = "<group>"; };
 		A1477B76226EA91A0017FF39 /* OriginTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1477B79226EA91A0017FF39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1477B7B226EA91A0017FF39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				A1477B80226EA91A0017FF39 /* OriginTest.xcdatamodeld */,
 				DEC5DBE92273A55B005309BA /* KeychainService.swift */,
 				A1289A17227AA64200FD6148 /* skills.json */,
+				A1289A20227AB09300FD6148 /* contactInfo.json */,
 			);
 			path = OriginTest;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1F09E32278DF710074C73D /* summary.json in Resources */,
+				A1289A21227AB09300FD6148 /* contactInfo.json in Resources */,
 				A1477B87226EA91C0017FF39 /* LaunchScreen.storyboard in Resources */,
 				A1C53B3F22796C2300991E71 /* work.json in Resources */,
 				A1289A18227AA64200FD6148 /* skills.json in Resources */,

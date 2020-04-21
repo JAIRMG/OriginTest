@@ -1,6 +1,13 @@
 {
     "workInfo": [
         {
+            "date": "Feb 2019 - Current",
+            "role": "iOS Developer",
+            "image": "https://raw.githubusercontent.com/JAIRMG/OriginTest/master/OriginTest/globant.png",
+            "company": "Globant",
+            "detailWork": "Working in global HSBC app. Technologies: GIT, Jenkins, CocoaFrameworks, Carthage, RxSwift, Firebase, Nexus repository manage, VIPER architecture pattern and agile frame- work SCRUM"
+        },
+        {
             "date": "Feb 2018 - Mar 2019",
             "role": "iOS Developer",
             "image": "https://raw.githubusercontent.com/JAIRMG/OriginTest/master/OriginTest/hitss.jpeg",
